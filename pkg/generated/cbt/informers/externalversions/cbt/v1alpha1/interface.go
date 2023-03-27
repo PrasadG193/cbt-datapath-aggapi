@@ -19,7 +19,7 @@ limitations under the License.
 package v1alpha1
 
 import (
-	internalinterfaces "github.com/PrasadG193/cbt-datapath/pkg/generated/cbt/informers/externalversions/internalinterfaces"
+	internalinterfaces "github.com/PrasadG193/cbt-datapath-aggapi/pkg/generated/cbt/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to all the informers in this group version.

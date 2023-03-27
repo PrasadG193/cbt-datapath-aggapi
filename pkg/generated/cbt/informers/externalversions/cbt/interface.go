@@ -19,8 +19,8 @@ limitations under the License.
 package cbt
 
 import (
-	v1alpha1 "github.com/PrasadG193/cbt-datapath/pkg/generated/cbt/informers/externalversions/cbt/v1alpha1"
-	internalinterfaces "github.com/PrasadG193/cbt-datapath/pkg/generated/cbt/informers/externalversions/internalinterfaces"
+	v1alpha1 "github.com/PrasadG193/cbt-datapath-aggapi/pkg/generated/cbt/informers/externalversions/cbt/v1alpha1"
+	internalinterfaces "github.com/PrasadG193/cbt-datapath-aggapi/pkg/generated/cbt/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to each of this group's versions.

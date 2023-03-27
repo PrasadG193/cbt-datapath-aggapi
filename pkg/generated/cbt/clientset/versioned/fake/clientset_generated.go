@@ -19,9 +19,9 @@ limitations under the License.
 package fake
 
 import (
-	clientset "github.com/PrasadG193/cbt-datapath/pkg/generated/cbt/clientset/versioned"
-	cbtv1alpha1 "github.com/PrasadG193/cbt-datapath/pkg/generated/cbt/clientset/versioned/typed/cbt/v1alpha1"
-	fakecbtv1alpha1 "github.com/PrasadG193/cbt-datapath/pkg/generated/cbt/clientset/versioned/typed/cbt/v1alpha1/fake"
+	clientset "github.com/PrasadG193/cbt-datapath-aggapi/pkg/generated/cbt/clientset/versioned"
+	cbtv1alpha1 "github.com/PrasadG193/cbt-datapath-aggapi/pkg/generated/cbt/clientset/versioned/typed/cbt/v1alpha1"
+	fakecbtv1alpha1 "github.com/PrasadG193/cbt-datapath-aggapi/pkg/generated/cbt/clientset/versioned/typed/cbt/v1alpha1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

@@ -23,9 +23,9 @@ import (
 	sync "sync"
 	time "time"
 
-	versioned "github.com/PrasadG193/cbt-datapath/pkg/generated/cbt/clientset/versioned"
-	cbt "github.com/PrasadG193/cbt-datapath/pkg/generated/cbt/informers/externalversions/cbt"
-	internalinterfaces "github.com/PrasadG193/cbt-datapath/pkg/generated/cbt/informers/externalversions/internalinterfaces"
+	versioned "github.com/PrasadG193/cbt-datapath-aggapi/pkg/generated/cbt/clientset/versioned"
+	cbt "github.com/PrasadG193/cbt-datapath-aggapi/pkg/generated/cbt/informers/externalversions/cbt"
+	internalinterfaces "github.com/PrasadG193/cbt-datapath-aggapi/pkg/generated/cbt/informers/externalversions/internalinterfaces"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

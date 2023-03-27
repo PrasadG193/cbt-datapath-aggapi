@@ -1,4 +1,4 @@
-module github.com/PrasadG193/cbt-datapath
+module github.com/PrasadG193/cbt-datapath-aggapi
 
 go 1.17
 

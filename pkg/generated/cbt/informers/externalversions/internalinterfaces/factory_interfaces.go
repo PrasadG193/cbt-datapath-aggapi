@@ -21,7 +21,7 @@ package internalinterfaces
 import (
 	time "time"
 
-	versioned "github.com/PrasadG193/cbt-datapath/pkg/generated/cbt/clientset/versioned"
+	versioned "github.com/PrasadG193/cbt-datapath-aggapi/pkg/generated/cbt/clientset/versioned"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	cache "k8s.io/client-go/tools/cache"

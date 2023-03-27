@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package cbt;
 
-option go_package = "github.com/PrasadG193/cbt-datapath/pkg/grpc";
+option go_package = "github.com/PrasadG193/cbt-datapath-aggapi/pkg/grpc";
 
 import "google/protobuf/timestamp.proto";
 import "google/protobuf/duration.proto";

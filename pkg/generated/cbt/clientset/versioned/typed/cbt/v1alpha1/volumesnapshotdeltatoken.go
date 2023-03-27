@@ -22,8 +22,8 @@ import (
 	"context"
 	"time"
 
-	v1alpha1 "github.com/PrasadG193/cbt-datapath/pkg/apis/cbt/v1alpha1"
-	scheme "github.com/PrasadG193/cbt-datapath/pkg/generated/cbt/clientset/versioned/scheme"
+	v1alpha1 "github.com/PrasadG193/cbt-datapath-aggapi/pkg/apis/cbt/v1alpha1"
+	scheme "github.com/PrasadG193/cbt-datapath-aggapi/pkg/generated/cbt/clientset/versioned/scheme"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"

@@ -21,8 +21,8 @@ package v1alpha1
 import (
 	"net/http"
 
-	v1alpha1 "github.com/PrasadG193/cbt-datapath/pkg/apis/cbt/v1alpha1"
-	"github.com/PrasadG193/cbt-datapath/pkg/generated/cbt/clientset/versioned/scheme"
+	v1alpha1 "github.com/PrasadG193/cbt-datapath-aggapi/pkg/apis/cbt/v1alpha1"
+	"github.com/PrasadG193/cbt-datapath-aggapi/pkg/generated/cbt/clientset/versioned/scheme"
 	rest "k8s.io/client-go/rest"
 )
 

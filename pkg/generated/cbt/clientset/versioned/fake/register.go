@@ -19,7 +19,7 @@ limitations under the License.
 package fake
 
 import (
-	cbtv1alpha1 "github.com/PrasadG193/cbt-datapath/pkg/apis/cbt/v1alpha1"
+	cbtv1alpha1 "github.com/PrasadG193/cbt-datapath-aggapi/pkg/apis/cbt/v1alpha1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

@@ -6,5 +6,5 @@ domain: my.domain
 layout:
 - go.kubebuilder.io/v4-alpha
 projectName: cbt-kubebuilder
-repo: github.com/PrasadG193/cbt-datapath
+repo: github.com/PrasadG193/cbt-datapath-aggapi
 version: "3"

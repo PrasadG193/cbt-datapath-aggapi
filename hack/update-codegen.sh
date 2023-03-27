@@ -32,9 +32,9 @@ for group in cbt;
 do
   bash ${CODEGEN_PKG}/generate-internal-groups.sh \
     "deepcopy,client,lister,informer,openapi" \
-    github.com/PrasadG193/cbt-datapath/pkg/generated/${group} \
-    github.com/PrasadG193/cbt-datapath/pkg/apis \
-    github.com/PrasadG193/cbt-datapath/pkg/apis \
+    github.com/PrasadG193/cbt-datapath-aggapi/pkg/generated/${group} \
+    github.com/PrasadG193/cbt-datapath-aggapi/pkg/apis \
+    github.com/PrasadG193/cbt-datapath-aggapi/pkg/apis \
     ${group}:v1alpha1 \
     --output-base "$(dirname ${BASH_SOURCE})/../" \
     --go-header-file ${SCRIPT_ROOT}/hack/boilerplate.go.txt -v10
@@ -42,6 +42,6 @@ done
 
 rm -rf pkg/generated
 mkdir -p pkg/generated
-cp -R github.com/PrasadG193/cbt-datapath/pkg/generated/* pkg/generated/
-cp -R github.com/PrasadG193/cbt-datapath/pkg/apis/* pkg/apis/
+cp -R github.com/PrasadG193/cbt-datapath-aggapi/pkg/generated/* pkg/generated/
+cp -R github.com/PrasadG193/cbt-datapath-aggapi/pkg/apis/* pkg/apis/
 rm -rf github.com

@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"net/http"
 
-	cbtv1alpha1 "github.com/PrasadG193/cbt-datapath/pkg/generated/cbt/clientset/versioned/typed/cbt/v1alpha1"
+	cbtv1alpha1 "github.com/PrasadG193/cbt-datapath-aggapi/pkg/generated/cbt/clientset/versioned/typed/cbt/v1alpha1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"

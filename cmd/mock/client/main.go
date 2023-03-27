@@ -10,7 +10,7 @@ import (
 	"os"
 	"time"
 
-	pb "github.com/PrasadG193/cbt-datapath/pkg/grpc"
+	pb "github.com/PrasadG193/cbt-datapath-aggapi/pkg/grpc"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
